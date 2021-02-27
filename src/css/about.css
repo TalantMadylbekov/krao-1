@@ -1,0 +1,48 @@
+.links{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.links div{
+    padding: 20px 0;
+}
+.links div a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+.links div a:hover {
+   color: brown;
+}
+.links .block{
+    width: 28%;
+}
+ .gr{
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 30px 0;
+     background: -webkit-linear-gradient(#2a0952, #376efa);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+footer{
+    background: black;
+}
+ .box1{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+font-size: 20px;
+     padding: 150px 0;
+     color: white;
+     font-weight: bold;
+ }
+ .box1 span{
+     background: -webkit-linear-gradient(#2a0952, #376efa);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ .box1 div{
+     padding: 15px 0;
+ }
