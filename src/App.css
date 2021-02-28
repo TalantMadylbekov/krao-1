@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gafata&family=Leckerli+One&family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +15,8 @@
 header{
     width: 100%;
     padding: 40px 0;
-    background: #033c92;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,150,253,1) 100%);
     color: white;
 }
 header .logo{
@@ -29,10 +31,9 @@ header .logo a{
     text-decoration: none;
 }
 .logo p{
-    font-size: 25px;
+    font-size: 40px;
     margin: 0 20px;
-    font-family: 'Source Code Pro', monospace;
-    font-weight: bold;
+    font-family: 'Pacifico', cursive;
 }
 .menu{
     display: flex;
@@ -62,8 +63,9 @@ header .logo a{
 .dropdown-content {
     display: none;
     position: absolute;
-    background: black;
-    width: 250px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,150,253,1) 100%);
+    width: 280px;
     justify-content: space-between;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -81,14 +83,11 @@ header .logo a{
     color: white;
 }
 .dropdown-content a:hover {
-    z-index: 20;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(77,52,120,1) 27%, rgba(0,212,255,1) 100%);
+    color: burlywood;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(77,52,120,1) 27%, rgba(0,212,255,1) 100%);
+    background: burlywood;
 }

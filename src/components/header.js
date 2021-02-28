@@ -1,12 +1,4 @@
 import React ,{useState}from 'react';
-import kyrgyz from "../img/kyrgyz.png"
-import russian from "../img/russian.png"
-
-
-
-
-
-
 import "../App.css"
 import {Link} from "react-router-dom";
 
@@ -14,7 +6,6 @@ import {Link} from "react-router-dom";
 
 
 const Header = () => {
-    const [isOpen,setOpen] = useState(false)
     return (
         <>
 <header>
@@ -26,8 +17,8 @@ const Header = () => {
                 <p>Кыргызско-Российская академия образования</p>
             </div>
             <div>
-                <img src={kyrgyz} alt=""/>
-                <img src={russian} alt=""/>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/800px-Flag_of_Kyrgyzstan.svg.png" alt="" width="55px" style={{marginRight:"10px"}}/>
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1200px-Flag_of_Russia.svg.png" alt="" width="53px"/>
             </div>
         </div>
         <div className="menu" >
@@ -35,63 +26,33 @@ const Header = () => {
                 <button className="dropbtn">Об академии</button>
                 <div className="dropdown-content">
                     <Link to="about">Сведения об образовательной организации</Link>
-                    <Link>История КРАО</Link>
+                    <Link to="/history">История КРАО</Link>
                     <Link>Руководство</Link>
 
                 </div>
             </div>
             <div className="dropdown">
-                <button className="dropbtn">Абитуриент</button>
+                <button className="dropbtn">Направления подготовки</button>
                 <div className="dropdown-content">
-                    <Link>Link 1</Link>
-                    <Link>Link 2</Link>
-                    <a href="#">Link 3</a>
+                    <Link to="/creating">Link 1</Link>
                 </div>
             </div>
             <div className="dropdown">
-                <button className="dropbtn">Магистратура</button>
+                <button className="dropbtn">Наука и развитие</button>
                 <div className="dropdown-content">
-                    <Link>Link 1</Link>
-                    <Link>Link 2</Link>
-                    <a href="#">Link 3</a>
+                    <Link to="/creating">Link 1</Link>
                 </div>
             </div>
             <div className="dropdown">
-                <button className="dropbtn">Кафедры</button>
+                <button className="dropbtn">Абитуриенту</button>
                 <div className="dropdown-content">
-                    <Link>Link 1</Link>
-                    <Link>Link 2</Link>
-                    <a href="#">Link 3</a>
+                    <Link to="/creating">Link 1</Link>
                 </div>
             </div>
             <div className="dropdown">
-                <button className="dropbtn">Колледж</button>
+                <button className="dropbtn">Студенту</button>
                 <div className="dropdown-content">
-                    <Link>Link 1</Link>
-                    <Link>Link 2</Link>
-                    <a href="#">Link 3</a>
-                </div>
-            </div>
-            <div className="dropdown">
-                <button className="dropbtn">Курсы</button>
-                <div className="dropdown-content">
-                    <Link>Link 1</Link>
-                    <Link>Link 2</Link>
-                    <a href="#">Link 3</a>
-                </div>
-            </div>
-            <div className="dropdown">
-                <button className="dropbtn">Студентами</button>
-                <div className="dropdown-content">
-                    <Link>Link 1</Link>
-                    <Link>Link 2</Link>
-                    <a href="#">Link 3</a>
-                </div>
-            </div>
-            <div className="dropdown">
-                <button className="dropbtn">Dropdown</button>
-                <div className="dropdown-content">
-                    <Link>Link 1</Link>
+                    <Link to="/student">Расписание</Link>
                     <Link>Link 2</Link>
                     <a href="#">Link 3</a>
                 </div>

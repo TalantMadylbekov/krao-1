@@ -9,12 +9,12 @@ import About from "./about";
 const International = () => {
     return (
         <div>
-            < About />
+            <About />
             <CarouselProvider
                 naturalSlideWidth={100}
                 naturalSlideHeight={100}
                 totalSlides={3}
-                interval={1000}
+                interval={3000}
                 isPlaying={true}
             >
                 <Slider>

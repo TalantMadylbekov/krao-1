@@ -13,7 +13,7 @@
     color: black;
 }
 .links div a:hover {
-   color: brown;
+   color: #c49558;
 }
 .links .block{
     width: 28%;
@@ -22,12 +22,22 @@
     font-size: 60px;
     font-weight: bolder;
     padding: 30px 0;
-     background: -webkit-linear-gradient(#2a0952, #376efa);
+     background: -webkit-linear-gradient(#3bdefa, #1358fd);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
 }
+ .lt{
+     background: -webkit-linear-gradient(#3bdefa, #1358fd);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+
 footer{
-    background: black;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,150,253,1) 100%);
+    display: flex;
+    flex: 0 0  auto;
 }
  .box1{
      display: flex;
@@ -39,10 +49,9 @@ font-size: 20px;
      font-weight: bold;
  }
  .box1 span{
-     background: -webkit-linear-gradient(#2a0952, #376efa);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
+    color: #745832;
  }
  .box1 div{
      padding: 15px 0;
  }
+

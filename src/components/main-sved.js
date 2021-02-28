@@ -5,7 +5,7 @@ import "../css/main.css"
 const MainSved = () => {
     return (
         <div>
-        <About/>
+            <About />
             <div className="container">
                 <h1 className="pre">ОСНОВНЫЕ СВЕДЕНИЯ</h1>
 

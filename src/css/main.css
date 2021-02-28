@@ -6,10 +6,10 @@
 .opacity{
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background: black;
-    opacity: 0.5;
-    top:253px;
+    opacity: 0.3;
+    top:215px;
     z-index: 1;
 }
 .overlay{
@@ -31,14 +31,15 @@
     display: flex;
     margin-left: 29%;
 }
+
 .buttons div{
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(77,52,120,1) 27%, rgba(0,212,255,1) 100%);
+    background: burlywood;
 padding: 5px;
     margin: 30px 20px;
 }
 .buttons div button{
-    background: black;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,150,253,1) 100%);
     width: 320px;
     height: 60px;
     border: none;
@@ -46,8 +47,12 @@ padding: 5px;
     font-weight: bold;
     font-size: 25px;
 }
+.buttons a{
+    color: white;
+    text-decoration: none;
+}
 .pre{
-    background: -webkit-linear-gradient(#2a0952, #376efa);
+    background: -webkit-linear-gradient(#05abf8, #0e51fc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 50px;
@@ -63,6 +68,42 @@ padding: 5px;
 }
 .block2:hover{
     color: white;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(77,52,120,1) 27%, rgba(0,212,255,1) 100%);
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,150,253,1) 100%);;
+}
+.founder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+.founder .div{
+    width: 30%;
+    font-size: 25px;
+}
+
+.founder h2{
+    color: #c49558;
+}
+.preFounder{
+    text-align: center;
+    padding-top: 50px;
+    color: #c49558;
+    font-size: 30px;
+}
+
+.th img{
+    width: 50%;
+    border-radius: 5px;
+}
+.th{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.th h2{
+    color: #c49558;
+    margin: 45px 0 ;
 }

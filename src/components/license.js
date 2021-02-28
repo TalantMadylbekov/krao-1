@@ -1,7 +1,7 @@
 import React from 'react';
-import license from '../src/images/license_images/license.jpg'
-import accreditation from '../src/images/license_images/accreditation.jpg'
-import charter from '../src/images/license_images/charter.jpg'
+import license from '../components/images/license_images/license.jpg'
+import accreditation from '../components/images/license_images/accreditation.jpg'
+import charter from '../components/images/license_images/charter.jpg'
 
 const License = () => {
     return (
