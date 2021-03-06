@@ -17,6 +17,9 @@ import Education from "./components/education"
 import Logistic from "./components/logistics"
 import Finance from "./components/Finance";
 import Finance2 from "./components/Finance2";
+import Directions from "./components/Direction/directions";
+import AboutDirect from "./components/Direction/aboutDirect";
+import Chairs from "./components/Direction/chairs";
 
 
 function App() {
@@ -39,6 +42,9 @@ function App() {
               <Route exact path="/pay" component={() => <Finance />} />
               <Route exact path="/finance" component={() => <Finance2 />} />
               <Route exact path="/education" component={() => <Education />} />
+              <Route exact path="/directions" component={() => <Directions />} />
+              <Route exact path="/aboutDirect" component={() => <AboutDirect />} />
+              <Route exact path="/chairs" component={() => <Chairs />} />
         </div>
         <Footer />
     </div>
