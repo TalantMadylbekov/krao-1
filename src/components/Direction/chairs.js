@@ -9,19 +9,19 @@ const Chairs = () => {
                 <div className="links">
                     <div className="block">
                         <div>
-                            <Link to="chairs">Кафедра Экономики и менеджмента</Link>
+                            <Link to="/economic">Кафедра Экономики и менеджмента</Link>
                         </div>
                         <div>
-                            <Link to="magistracy">Кафедра Государственного и муниципального управления и юриспруденции</Link>
+                            <Link to="/statejurist">Кафедра Государственного и муниципального управления и юриспруденции</Link>
                         </div>
                         <div>
-                            <Link to="college">Кафедра Информационных технологий и естественно-технических наук</Link>
+                            <Link to="/infotech">Кафедра Информационных технологий и естественно-технических наук</Link>
                         </div>
                         <div>
-                            <Link to="courses">Кафедра Психологии и педагогических дисциплин</Link>
+                            <Link to="/psychology">Кафедра Психологии и педагогических дисциплин</Link>
                         </div>
                         <div>
-                            <Link to="drivingschool">Кафедра Лингвистики и государственного языка</Link>
+                            <Link to="/linguistics">Кафедра Лингвистики и государственного языка</Link>
                         </div>
                     </div>
                 </div>

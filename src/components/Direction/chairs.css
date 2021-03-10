@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Francois+One&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.container {
+    width: 1350px;
+    margin: 0 auto;
+}
+.econom-block-1{
+    height: 100vh;
+    width: 100vw;
+}
+.econom-block-1 h1 {
+    position: absolute;
+    padding-top: 80px;
+    margin-left: 200px;
+    font-family: 'Francois One', sans-serif;
+    color: white;
+    font-size: 300%;
+    line-height: 48px;
+}
+.img-block1 {
+    height: 100vh;
+    width: 100vw;
+}
+.econom-block-2 {
+    background: #8FCE42;
+}
+.econom-block-2 p {
+    padding: 50px 100px;
+    font-family: 'Francois One', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.econom-block-3 {
+    width: 100vw;
+    display: flex;
+}
+.part1-3 {
+    width: 50%;
+    padding: 80px 100px;
+}
+.part1-3 h1 {
+    font-family: 'Francois One', sans-serif;
+}
+.part1-3 h2 {
+    color: #222;
+    padding: 40px 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 48px;
+}
+.part1-3 p{
+    font-size: 22px;
+    line-height: 32px;
+    padding-bottom: 40px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.part1-3 button {
+    text-transform: uppercase;
+    color: #FFBB23;
+    border: none;
+    border-bottom: thick solid #FFBB23;
+    background: white;
+    font-size: larger;
+    font-style: normal;
+}
+.part2-3 {
+    width: 50%;
+    object-fit: contain;
+}
+.img-block3{
+    height: 100%;
+    width: 100%;
+}
+.econom-block-4 {
+    width: 100vw;
+    display: flex;
+}
+.part1-4 {
+    width: 50%;
+    padding: 80px 100px;
+}
+.part1-4 h1 {
+    font-family: 'Francois One', sans-serif;
+}
+.part1-4 h2 {
+    color: #222;
+    padding: 40px 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 48px;
+}
+.part1-4 p{
+    font-size: 22px;
+    line-height: 32px;
+    padding-bottom: 40px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.part1-4 button {
+    text-transform: uppercase;
+    color: #FFBB23;
+    border: none;
+    border-bottom: thick solid #FFBB23;
+    background: white;
+    font-size: larger;
+    font-style: normal;
+}
+.part2-4 {
+    height: 100vh;
+    width: 50%;
+    object-fit: contain;
+}
+.img-block4{
+    height: 100%;
+    width: 100%;
+}
+.econom-block-5 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.part1-5 {
+    width: 50%;
+    margin: 0;
+    padding: 80px 100px;
+}
+.part1-5 h1 {
+    font-family: 'Francois One', sans-serif;
+}
+.part1-5 h2 {
+    color: #222;
+    padding: 40px 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 48px;
+}
+.part1-5 p{
+    font-size: 22px;
+    line-height: 32px;
+    padding-bottom: 40px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.part1-5 button {
+    text-transform: uppercase;
+    color: #FFBB23;
+    border: none;
+    border-bottom: thick solid #FFBB23;
+    background: white;
+    font-size: larger;
+    font-style: normal;
+}
+.part2-5 {
+    width: 50%;
+    object-fit: contain;
+}
+.img-block5{
+    height: 100%;
+    width: 100%;
+}

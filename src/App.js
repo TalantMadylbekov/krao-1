@@ -20,6 +20,15 @@ import Finance2 from "./components/Finance2";
 import Directions from "./components/Direction/directions";
 import AboutDirect from "./components/Direction/aboutDirect";
 import Chairs from "./components/Direction/chairs";
+import Infotech from "./components/Direction/infotech";
+import Linguistics from "./components/Direction/linguistics";
+import Psychology from "./components/Direction/psychology";
+import Statejurist from "./components/Direction/statejurist";
+import Economic from "./components/Direction/economic";
+import Drivingschool from "./components/Direction/drivingschool";
+import Courses from "./components/Direction/courses";
+import Magistracy from "./components/Direction/magistracy";
+import College from "./components/Direction/college";
 
 
 function App() {
@@ -45,6 +54,17 @@ function App() {
               <Route exact path="/directions" component={() => <Directions />} />
               <Route exact path="/aboutDirect" component={() => <AboutDirect />} />
               <Route exact path="/chairs" component={() => <Chairs />} />
+              <Route exact path="/infotech" component={() => <Infotech />} />
+              <Route exact path="/linguistics" component={() => <Linguistics />} />
+              <Route exact path="/psychology" component={() => <Psychology />} />
+              <Route exact path="/statejurist" component={() => <Statejurist />} />
+              <Route exact path="/economic" component={() => <Economic />} />
+              <Route exact path="/drivingschool" component={() => <Drivingschool />} />
+              <Route exact path="/courses" component={() => <Courses />} />
+              <Route exact path="/magistracy" component={() => <Magistracy />} />
+              <Route exact path="/college" component={() => <College />} />
+
+
         </div>
         <Footer />
     </div>
