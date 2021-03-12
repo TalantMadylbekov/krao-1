@@ -1,9 +1,10 @@
 import React from 'react'
-import "../Direction/chairs.css"
+
 import imgblock1 from "../images/direction_images/ИВТ/DSC_0074.JPG"
 import imgblock3 from "../images/direction_images/ИВТ/DSC_0463.JPG"
 import imgblock4 from "../images/direction_images/ИВТ/DSC_0113.JPG"
 import imgblock5 from "../images/direction_images/ИВТ/DSC_0006.JPG"
+import "../Direction/css/chairs.css"
 
 
 const Infotech = () => {

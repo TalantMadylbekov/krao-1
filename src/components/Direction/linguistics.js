@@ -1,17 +1,57 @@
 import React from 'react';
-import "../Direction/chairs.css"
+
 import imgblock1 from "../images/direction_images/Лингвистика/C1D9AC823914A4DADA002A3400ECB34B.png"
 import imgblock3 from "../images/direction_images/Лингвистика/1034162672.jpg"
 import imgblock4 from "../images/direction_images/Лингвистика/IMG_9195.jpg"
 import imgblock5 from "../images/direction_images/Лингвистика/DSC_1107.jpg"
+import {
+    Button,
+    Card,
+    CardActionArea,
+    CardActions,
+    CardContent,
+    CardMedia,
+    makeStyles,
+    Typography
+} from "@material-ui/core";
+
+import jiydegul from '../images/direction_images/Лингвистика/Кыркбаева Гулмайрам Надырбековна Кандидат филологических наук, заведующая кафедрой.jpg'
+import aike from '../images/direction_images/Лингвистика/Десятова Екатерина Александровна Старший преподаватель.jpg'
+import aisalkin from '../images/direction_images/Лингвистика/Кашкарбаева Бегай Тобокеловна  Старший преподаватель(2).jpg'
+import emilia from '../images/direction_images/Лингвистика/Сатынбаева Динара Сатынбаевна Преподаватель.jpeg'
+import jildiz from '../images/direction_images/Лингвистика/Тургунова Нурзада Алтынбековна  Преподаватель.JPG'
+import mavluda from '../images/direction_images/Лингвистика/Щус Анастасия Анатольевна Преподаватель.jpg'
+
+import "../Direction/css/chairs.css"
+
+
+
+const useStyles = makeStyles({
+    root: {
+        maxWidth: 300,
+        margin:"50px",
+        fontSize:"25px",
+        border: "1px solid #5889C4",
+
+
+    },
+    media: {
+        objectFit:"contain"
+    }
+
+
+});
 
 
 const Linguistics  = () => {
+
+    const classes = useStyles()
+
     return (
         <div className="container">
             <div className="wrapper">
                 <div className="econom-block-1">
-                    <h1 className="font">Лингвистика государственного языка</h1>
+                    <h1 className="font">Лингвистика и государственный язык</h1>
                     <img
                         className="img-block1"
                         src={imgblock1}
@@ -105,6 +145,113 @@ const Linguistics  = () => {
                         "/>
                     </div>
                 </div>
+            </div>
+            <div className="preFounder  animate__animated animate__fadeInUp  wow">
+                <h2 style={{ color: "#5889c4"}}>Кафедра лингвистики и государственного языка</h2>
+                <h3 style={{ color: "#5889c4"}}>Научно-преподавательский состав</h3>
+            </div>
+            <div className="founder  animate__animated animate__fadeInUp  wow">
+                <Card className={classes.root} >
+                    <CardActionArea>
+                        <CardMedia className={classes.media}
+                                   component="img"
+                                   alt="Contemplative Reptile"
+                                   height="400"
+                                   image={jiydegul}
+                                   title="Contemplative Reptile"
+                        />
+                        <CardContent>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                Кыркбаева Гулмайрам Надырбековна Кандидат филологических наук, заведующая кафедрой
+                            </Typography>
+
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
+                <Card className={classes.root}>
+                    <CardActionArea>
+                        <CardMedia className={classes.media}
+                                   component="img"
+                                   alt="Contemplative Reptile"
+                                   height="400"
+                                   image={aike}
+                                   title="Contemplative Reptile"
+                        />
+                        <CardContent>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                Десятова Екатерина Александровна Старший преподаватель
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
+                <Card className={classes.root}>
+                    <CardActionArea>
+                        <CardMedia className={classes.media}
+                                   component="img"
+                                   alt="Contemplative Reptile"
+                                   height="350"
+                                   image={aisalkin}
+                                   title="Contemplative Reptile"
+                        />
+                        <CardContent>
+                            <Typography gutterBottom variant="h5" component="h2">
+
+                                Кашкарбаева Бегай Тобокеловна  Старший преподаватель(2)
+
+                            </Typography>
+
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
+                <Card className={classes.root}>
+                    <CardActionArea>
+                        <CardMedia className={classes.media}
+                                   component="img"
+                                   alt="Contemplative Reptile"
+                                   height="400"
+                                   image={jildiz}
+                                   title="Contemplative Reptile"
+                        />
+                        <CardContent>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                Тургунова Нурзада Алтынбековна  Преподаватель
+                            </Typography>
+
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
+                <Card className={classes.root}>
+                    <CardActionArea>
+                        <CardMedia className={classes.media}
+                                   component="img"
+                                   alt="Contemplative Reptile"
+                                   height="400"
+                                   image={emilia}
+                                   title="Contemplative Reptile"
+                        />
+                        <CardContent>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                Сатынбаева Динара Сатынбаевна Преподаватель
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
+                <Card className={classes.root}>
+                    <CardActionArea>
+                        <CardMedia className={classes.media}
+                                   component="img"
+                                   alt="Contemplative Reptile"
+                                   height="400"
+                                   image={mavluda}
+                                   title="Contemplative Reptile"
+                        />
+                        <CardContent>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                Щус Анастасия Анатольевна Преподаватель
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
             </div>
         </div>
     );
